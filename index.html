@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <title>歷程</title>
+    <link rel="stylesheet" href="./css/style.css"/><script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.10/vue.js'></script>
+  </head>
+  <body>
+    <div id="app">
+      <div class="header"><span class="span_1">{{header[0].span_name}}</span><img :src="header[0].img" alt="github_icon"/><span class="span_2"><a href="https://github.com/MalygosDuke" target="_blank">Github</a></span></div>
+      <div class="content">
+        <div class="content_header">
+          <h1>MalygosDuke作品集</h1>
+          <h3>學習歷程之點點滴滴......</h3>
+        </div>
+        <div class="project">
+          <div v-for="(item,index) in content" class="project_card">
+            <div class="img"><img :src="item.project_img"/></div>
+            <div class="card_body">
+              <h3>{{item.name}}</h3>
+              <ol>
+                <li v-for="item in content[index].explain">{{item}}</li>
+              </ol>
+            </div>
+            <div class="source"><img :src="header[0].img" alt="github_icon"/><a :href="content[index].source" target="_blank">Source</a></div>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <h3 class="footer_h3">Copyright by MalygosDuke</h3>
+      </div>
+    </div>
+    <script src="./js/project.js"></script>
+  </body>
+</html>
