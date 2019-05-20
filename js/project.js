@@ -11,13 +11,15 @@ let data = {
       project_img: "./img/Profile.PNG",
       name: "Resume",
       explain: ["簡介", "熟悉技能", "學經歷"],
-      source: "http://www.wibibi.com/info.php?tid=138"
+      source:
+        "https://github.com/MalygosDuke/Practice/tree/master/Resume_20190518"
     },
     {
       project_img: "./img/project1.PNG",
       name: "簡易購物網站",
       explain: ["練習vue.js之資料綁定", "購物車製作", "搜尋商品等功能實作"],
-      source: "https://github.com/MalygosDuke/Practice"
+      source:
+        "https://github.com/MalygosDuke/Practice/tree/master/Shopping_list_20190518"
     }
   ]
 };
