@@ -17,7 +17,7 @@
         </div>
         <div class="project">
           <div v-for="(item,index) in content" class="project_card">
-            <div class="img"><img :src="item.project_img"/></div>
+            <div class="img"><a :href="item.heroku"><img :src="item.project_img"/></a></div>
             <div class="card_body">
               <h3>{{item.name}}</h3>
               <ol>

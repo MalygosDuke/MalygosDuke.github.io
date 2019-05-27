@@ -8,6 +8,7 @@ let data = {
   ],
   content: [
     {
+      heroku: "##",
       project_img: "./img/Profile.PNG",
       name: "Resume",
       explain: ["簡介", "熟悉技能", "學經歷"],
@@ -15,6 +16,7 @@ let data = {
         "https://github.com/MalygosDuke/Practice/tree/master/Resume_20190518"
     },
     {
+      heroku: "https://simpleshopweb.herokuapp.com/index.html",
       project_img: "./img/project1.PNG",
       name: "簡易購物網站",
       explain: ["練習vue.js之資料綁定", "購物車製作", "搜尋商品等功能實作"],

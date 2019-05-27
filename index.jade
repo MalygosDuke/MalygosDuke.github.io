@@ -21,7 +21,8 @@ html(lang="en")
                 .project
                     .project_card(v-for="(item,index) in content")
                         .img
-                            img(:src="item.project_img")
+                            a(:href="item.heroku")
+                                img(:src="item.project_img")
                         .card_body
                             h3 {{item.name}}
                             ol
