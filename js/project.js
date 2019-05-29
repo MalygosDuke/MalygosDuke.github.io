@@ -8,7 +8,7 @@ let data = {
   ],
   content: [
     {
-      heroku: "https://malygosduke.github.io/Complex/index1.html",
+      heroku: "https://malygosduke.github.io/Complex/index.html",
       project_img: "./img/Profile.PNG",
       name: "Resume",
       explain: ["簡介", "熟悉技能", "學經歷"],
